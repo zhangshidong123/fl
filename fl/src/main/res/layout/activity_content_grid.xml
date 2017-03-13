@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.plmm.fuli.ContentGridActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="@dimen/dimen5"
+        android:paddingTop="@dimen/dimen5">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:padding="@dimen/dimen10"
+            android:text="@string/back"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/textsize15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:text="@string/app"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/textsize20"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimenhalf"
+        android:background="@color/gray_light"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:id="@+id/xGistView_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/dimen15"
+        android:columnWidth="100dp"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="@dimen/dimen10"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/dimen10"/>
+</LinearLayout>

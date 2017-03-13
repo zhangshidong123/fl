@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.plmm.fuli.PlayIndexActivity">
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/dimen5"
+        android:paddingBottom="@dimen/dimen5">
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textSize="@dimen/textsize15"
+            android:textColor="@color/font_color"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:padding="@dimen/dimen10"/>
+        <TextView
+            android:id="@+id/movieTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail"
+            android:textSize="@dimen/textsize20"
+            android:textColor="@color/font_color"
+            android:layout_centerInParent="true"
+            android:background="@null"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen1"
+        android:background="@color/gray_light"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen10">
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            android:id="@+id/xGridView_movieTab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="100dp"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="@dimen/dimen10"
+            android:verticalSpacing="@dimen/dimen15"
+            android:layout_marginTop="@dimen/dimen15"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth" />
+    </RelativeLayout>
+</LinearLayout>

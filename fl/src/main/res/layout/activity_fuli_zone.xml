@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/dimen5"
+        android:paddingBottom="@dimen/dimen5">
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textSize="@dimen/textsize15"
+            android:textColor="@color/font_color"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:padding="@dimen/dimen10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app"
+            android:textSize="@dimen/textsize20"
+            android:textColor="@color/font_color"
+            android:layout_centerInParent="true"
+            android:background="@null"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimenhalf"
+        android:background="@color/gray_light" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen10">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xg"
+            android:id="@+id/xg_btn"
+            android:onClick="goXG"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xf"
+            android:id="@+id/xf_btn"
+            android:onClick="goXF"/>
+
+        </LinearLayout>
+
+</LinearLayout>

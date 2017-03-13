@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="translate">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="mohu_white">#E5ffffff</color>
+    <color name="white_light">#f0f0f0</color>
+    <color name="light_gray_2">#99DBDBDB</color>
+    <color name="gray">#CECECE</color>
+    <color name="gray_light">#B4B6C1</color>
+    <color name="font_color">#565656</color>
+    <color name="gold">#b89766</color>
+    <color name="gold_light">#E8CD65</color>
+    <color name="black">#BF000000</color>
+    <color name="line">#F6F3F3</color>
+    <color name="blue">#0075a9</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#88C527</color>
+    <color name="orange">#F6A22F</color>
+
+
+    <color name="movie1">#F15F86</color>
+    <color name="movie2">#B577DC</color>
+    <color name="movie3">#708AE7</color>
+    <color name="movie4">#FF8903</color>
+    <color name="movie5">#35CA76</color>
+    <color name="movie6">#EA61BD</color>
+    <color name="movie7">#46B8EA</color>
+    <color name="movie8">#F8FA34</color>
+</resources>

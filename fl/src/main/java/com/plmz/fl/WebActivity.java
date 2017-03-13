@@ -30,6 +30,7 @@ public class WebActivity extends AppCompatActivity {
 		settings.setLoadWithOverviewMode(true);
 		Map<String,String> head = new HashMap<String, String>();
 		head.put("", "");
+		
 		webView.loadUrl("http://shop.yuge321.com/app/index.php?c=entry&do=shop&m=sz_yi&i=5", head);
 	}
 }

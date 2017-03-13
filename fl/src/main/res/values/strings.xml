@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">weal</string>
+    <string name="app">福利</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">null</string>
+    <string name="ad_unit_id">ca-app-pub-7147819161473007/5393344377</string>
+
+
+    <string name="et_hint">1024</string>
+    <string name="bnt_search">搜索</string>
+    <string name="back">返回</string>
+
+    <string name="detail">电影详情</string>
+    <string name="playlist">播放列表</string>
+
+    <string name="xigua">tv.danmaku.ijk.media.demo</string>
+    <string name="xianfeng">com.xfplay.play</string>
+    <string name="xigua_download">http://www.xigua.com/phone.html</string>
+    <string name="xg">西瓜区</string>
+    <string name="xf">先锋区</string>
+    <string name="online">在线播放</string>
+    <string name="dongman">动漫</string>
+    <string name="fail">资源加载失败</string>
+
+
+    <string-array name="video_class">
+        <item>电影</item>
+        <item>电视剧</item>
+        <item>动漫</item>
+        <item>TVB</item>
+        <item>综艺节目</item>
+    </string-array>
+    <!--电影-->
+    <string-array name="video_small_class">
+        <item>喜剧片</item>
+        <item>动作片</item>
+        <item>爱情片</item>
+        <item>科幻片</item>
+        <item>恐怖片</item>
+        <item>战争片</item>
+        <item>剧情片</item>
+    </string-array>
+    <string-array name="movie_type">
+        <item>xiju</item>
+        <item>dongzuo</item>
+        <item>aiqing</item>
+        <item>kehuan</item>
+        <item>kongbu</item>
+        <item>zhanzheng</item>
+        <item>juqing</item>
+    </string-array>
+    <!--电视剧-->
+   <string-array name="video_dianshiju_class">
+        <item>香港</item>
+        <item>台湾</item>
+        <item>大陆</item>
+        <item>日本</item>
+        <item>韩国</item>
+        <item>欧美</item>
+        <item>泰国</item>
+        <item>印度</item>
+    </string-array>
+    <!--动漫-->
+   <string-array name="dongmanparam">
+        <item>lianzaidonghua</item>
+    </string-array>
+    <!--综艺-->
+    <string-array name="zongyi">
+        <item>zongyi</item>
+    </string-array>
+    <!--西瓜-->
+    <string-array name="xg_main_name">
+        <item name="/htm/downlist1/">亚洲电影</item>
+        <item name="/htm/downlist2/">欧美电影</item>
+        <item name="/htm/downlist3/">制服丝袜</item>
+        <item name="/htm/downlist4/">强奸乱伦</item>
+        <item name="/htm/downlist5/">变态另类</item>
+        <item name="/htm/downlist6/">国产自拍</item>
+        <item name="/htm/downlist7/">经典三级</item>
+        <item name="/htm/downlist8/">成人动漫</item>
+    </string-array>
+    <string-array name="xg_main_link">
+        <item>/htm/downlist1/</item>
+        <item>/htm/downlist2/</item>
+        <item>/htm/downlist3/</item>
+        <item>/htm/downlist4/</item>
+        <item>/htm/downlist5/</item>
+        <item>/htm/downlist6/</item>
+        <item>/htm/downlist7/</item>
+        <item>/htm/downlist8/</item>
+    </string-array>
+    <!--先锋group-->
+    <string-array name="xf_group">
+        <item>先锋1区</item>
+        <item>先锋2区</item>
+    </string-array>
+    <string-array name="xf_child1">
+        <item>喜剧片</item>
+        <item>爱情片</item>
+        <item>恐怖片</item>
+        <item>科幻片</item>
+        <item>战争片</item>
+        <item>动画片</item>
+        <item>纪录片</item>
+        <item>国产剧</item>
+    </string-array>
+    <string-array name="xf_child2">
+        <item>香港剧</item>
+        <item>台湾剧</item>
+        <item>韩国剧</item>
+        <item>日本剧</item>
+        <item>欧美剧</item>
+        <item>海外剧</item>
+        <item>综艺</item>
+        <item>动漫</item>
+        <item>微电影</item>
+    </string-array>
+    <string-array name="xf_child_value1">
+        <item>/xflist/2</item>
+        <item>/xflist/3</item>
+        <item>/xflist/4</item>
+        <item>/xflist/5</item>
+        <item>/xflist/6</item>
+        <item>/xflist/7</item>
+        <item>/xflist/8</item>
+        <item>/xflist/9</item>
+    </string-array>
+    <string-array name="xf_child_value2">
+        <item>/xflist/10</item>
+        <item>/xflist/11</item>
+        <item>/xflist/12</item>
+        <item>/xflist/13</item>
+        <item>/xflist/14</item>
+        <item>/xflist/15</item>
+        <item>/xflist/30</item>
+        <item>/xflist/31</item>
+        <item>/xflist/55</item>
+    </string-array>
+</resources>
